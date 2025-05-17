@@ -49,6 +49,21 @@ bash
 Copy
 Edit
 sdkmanager "platform-tools" "build-tools;34.0.0" "ndk;25.2.9519653"
+
+JDK 21
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java 21-tem
+Tu pourras ensuite changer de version avec :
+
+bash
+Copy
+Edit
+sdk use java 21-tem
+
+
+
 🧰 Cloner Magisk
 bash
 Copy
